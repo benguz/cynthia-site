@@ -626,7 +626,17 @@ a {
 a:hover {
     color: #000000;
 }
+@media (min-width: 2000px) {
 
+    h1,
+    .h1,
+    .word-shift b,
+    .modal .modal-content .modal-title,
+    h2,
+    .h2 {
+        font-size: 70px
+    }
+}
 @media (max-width: 900px) {
 
     h1,
