@@ -1848,7 +1848,13 @@ a:hover {
     .h1,
     h2,
     .h2 {
-        font-size: 40px
+        font-size: 38px;
+        line-height: 1.3em;
+    }
+
+    .title-mod {
+        max-width: 92%;
+        width: 92%;
     }
 }
 
