@@ -67,7 +67,10 @@ body {
 
 body {
     -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale
+    -moz-osx-font-smoothing: grayscale;
+    background: linear-gradient(180deg, #FFFAFB 25.86%, #E7B4CF 50.17%, #AA0462 100%);
+    background-repeat: no-repeat;
+    background-size: 100% 400%;
 }
 
 .icon {
@@ -650,7 +653,7 @@ a:hover {
 }
 
 body {
-    background: #f2f3f5;
+    /* background: #f2f3f5; */
     font-family: "colfax-medium", sans-serif;
     text-align: center;
     color: #222
